@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-item{
+    width: 300px;
+    margin: 1rem;
+    position: relative;
+    border-radius: 8px;
+    background: white;
+    padding-bottom: 2rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 20px 40px rgba(87, 84, 84, 0.328);
+}
+
+.card-item:hover {
+    transform: rotate(3deg);
+    box-shadow: 0 20px 40px rgba(16, 14, 14, 0.5);
+}
+
+.image{
+    width: 300px;
+    height: 200px;
+    border-radius: 8px;
+    position: relative;
+    transition: all 0.5s;
+    background-size: cover;
+    background-position: center center;
+}
+
+.image1{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTn-7_guqVBCT1Y5DOIG4Yj6XnG0mZBSKnEMQ&usqp=CAU');
+}
+
+.image2{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTluvDXFGGOX7loEL19R42oiAk4TGnw1Ns0cA&usqp=CAU');
+}
+
+.image3{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0jxUVK7zzgrP43-GBpDCwHAj7M5-bHBuQDIHDuPjARSh0L53LL71G1T2QUMPbYWUF4gg&usqp=CAU');
+}
+
+.image4{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8RPy1nTxwQeKvB7LpC9aUsmnj2WgpHo8SwMF02hQ9xP-hJr5Gcyss6zJ1cakbTXnDMEo&usqp=CAU');
+}
+
+.content {
+    padding: 1rem;
+}
+
+.title {
+    margin: 1rem 0;
+    color: #ff0000;
+    font-size: 1.4rem;
+}
+
+p {
+    font-size: 14px;
+    margin-bottom: 2rem;
+    font-family: sans-serif;
+    color: rgb(124, 133, 141);
+}
+
+.button {
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    padding: 10px 18px;
+    text-decoration: none;
+    background-color: #ff0000;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button:hover {
+    background-color: black;
+}
